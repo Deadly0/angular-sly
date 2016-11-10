@@ -743,12 +743,13 @@ defineScalyrAngularModule('gatedScope', [])
 
     /**
      * @param {Boolean} isolate Whether or not the new scope should be isolated.
+     * @param {Scope} parent
      * @returns {Scope} A new child scope
      */
-    methodsToAdd.$new = function(isolate) {
+    methodsToAdd.$new = function(isolate, parent) {
       // Because of how scope.$new works, the returned result
       // should already have our new methods.
-      var result = scopePrototype.$new.call(this, isolate);
+      var result = scopePrototype.$new.call(this, isolate, parent);
 
       // We just have to do the work that normally a child class's
       // constructor would perform -- initializing our instance vars.
