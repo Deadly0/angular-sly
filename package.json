@@ -1,0 +1,25 @@
+{
+  "name": "angular-scalyr",
+  "version": "1.0.4",
+  "description": "Angular Directives by Scalyr",
+  "main": "scalyr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deadly0/angular-sly.git"
+  },
+  "keywords": [
+    "angular",
+    "scalyr",
+    "sly",
+    "sly-repeat"
+  ],
+  "author": "Igor Golovin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deadly0/angular-sly/issues"
+  },
+  "homepage": "https://github.com/Deadly0/angular-sly#readme"
+}
